@@ -22,13 +22,13 @@ export default function LayoutBannerUI() {
         slidesToScroll={settings.slidesToScroll}
       >
         <div>
-          <SliderItem src="/images/layout/banner01.png" />
+          <SliderItem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6vQf3mAxvIRZ2s87yLVDMwS2F1KpxUk0Yw&usqp=CAU" />
         </div>
         <div>
-          <SliderItem src="/images/layout/banner01.png" />
+          <SliderItem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6vQf3mAxvIRZ2s87yLVDMwS2F1KpxUk0Yw&usqp=CAU" />
         </div>
         <div>
-          <SliderItem src="/images/layout/banner01.png" />
+          <SliderItem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6vQf3mAxvIRZ2s87yLVDMwS2F1KpxUk0Yw&usqp=CAU" />
         </div>
       </Slider>
     </Wrapper>
