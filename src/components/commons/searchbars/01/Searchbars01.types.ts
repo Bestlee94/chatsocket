@@ -1,18 +1,13 @@
 import { ApolloQueryResult } from "@apollo/client";
 import { ChangeEvent } from "react";
-import {
-  IQuery,
-  IQueryFetchBoardsArgs,
-  IQueryFetchBoardsCountArgs,
-} from "../../../../commons/types/generated/types";
 
 export interface ISearchbars01Props {
   refetch: (
-    variables: Partial<IQueryFetchBoardsArgs>
-  ) => Promise<ApolloQueryResult<Pick<IQuery, "fetchBoards">>>;
+    variables: any
+  ) => Promise<ApolloQueryResult<Pick<any, "fetchBoards">>>;
   refetchBoardsCount: (
-    variables: Partial<IQueryFetchBoardsCountArgs>
-  ) => Promise<ApolloQueryResult<Pick<IQuery, "fetchBoardsCount">>>;
+    variables: any
+  ) => Promise<ApolloQueryResult<Pick<any, "fetchBoardsCount">>>;
   onChangeKeyword: (value: string) => void;
 }
 
