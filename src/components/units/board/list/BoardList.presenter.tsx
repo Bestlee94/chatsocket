@@ -20,7 +20,7 @@ export default function BoardListUI(props: IBoardListUIProps) {
         <S.ColumnHeaderBasic>작성자</S.ColumnHeaderBasic>
         <S.ColumnHeaderBasic>날짜</S.ColumnHeaderBasic>
       </S.Row>
-      {props.data?.fetchBoards.map((el) => (
+      {props.data?.fetchBoards.map((el: any) => (
         <S.Row key={el._id}>
           <S.ColumnBasic>
             {String(el._id).slice(-4).toUpperCase()}
@@ -29,7 +29,7 @@ export default function BoardListUI(props: IBoardListUIProps) {
             {el.title
               .replaceAll(props.keyword, `@#$%${props.keyword}@#$%`)
               .split("@#$%")
-              .map((el) => (
+              .map((el: any) => (
                 <S.TextToken key={uuidv4()} isMatched={props.keyword === el}>
                   {el}
                 </S.TextToken>
