@@ -22,13 +22,13 @@ export default function LayoutBannerUI() {
         slidesToScroll={settings.slidesToScroll}
       >
         <div>
-          <SliderItem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6vQf3mAxvIRZ2s87yLVDMwS2F1KpxUk0Yw&usqp=CAU" />
+          <SliderItem src="https://img.freepik.com/premium-vector/multicultural-business-team_1325-2429.jpg?w=2000" />
         </div>
         <div>
-          <SliderItem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6vQf3mAxvIRZ2s87yLVDMwS2F1KpxUk0Yw&usqp=CAU" />
+          <SliderItem src="https://img.freepik.com/premium-vector/unity-multicultural-diversity-team-friendship-concept_140689-1893.jpg?w=2000" />
         </div>
         <div>
-          <SliderItem src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6vQf3mAxvIRZ2s87yLVDMwS2F1KpxUk0Yw&usqp=CAU" />
+          <SliderItem src="https://img.freepik.com/premium-vector/friendly-encouragement-approval-concept_140689-141.jpg?w=2000" />
         </div>
       </Slider>
     </Wrapper>

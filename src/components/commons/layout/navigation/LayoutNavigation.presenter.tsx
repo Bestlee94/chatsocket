@@ -2,12 +2,7 @@ import { Fragment } from "react";
 import { MenuItem, Wrapper } from "./LayoutNavigation.styles";
 import { ILayoutNavigationUIProps } from "./LayoutNavigation.types";
 
-const NAVIGATION_MENUS = [
-  { name: "라이브강아지", page: "/openapis" },
-  { name: "라이브게시판", page: "/boards" },
-  { name: "라이브상품", page: "/markets" },
-  { name: "마이페이지", page: "/mypages" },
-];
+const NAVIGATION_MENUS = [{ name: "익명 게시판", page: "/boards" }];
 
 export default function LayoutNavigationUI(props: ILayoutNavigationUIProps) {
   return (
