@@ -154,7 +154,7 @@ export default function BoardWrite(props: IBoardWriteProps) {
       } catch (error) {
         // console.log(error.message);
         // alert(error.message);
-        Modal.error({ content: error.message });
+        Modal.error({ content: "err" });
       }
     }
   };
